@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мифы и Легенды — Обновлённый дизайн</title>
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4c6a92, #243447);
+    color: #fff;
+    overflow-x: hidden;
+  }
+
+  header {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+  }
+
+  header h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+
+  .section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 25px;
+    margin: 20px;
+    border-radius: 15px;
+    opacity: 0;
+    animation: fadeUp 1.2s ease forwards;
+  }
+
+  .section:nth-child(2) { animation-delay: 0.2s; }
+  .section:nth-child(3) { animation-delay: 0.4s; }
+  .section:nth-child(4) { animation-delay: 0.6s; }
+  .section:nth-child(5) { animation-delay: 0.8s; }
+  .section:nth-child(6) { animation-delay: 1.0s; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  th, td {
+    padding: 12px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  th {
+    background: rgba(255, 255, 255, 0.18);
+    font-weight: bold;
+  }
+
+  tr:hover td {
+    background: rgba(255, 255, 255, 0.25);
+    transition: 0.3s;
+  }
+
+  a {
+    color: #ffdf6e;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 15px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #ddd;
+    font-style: italic;
+  }
+
+  /* декоративный эффект */
+  .glow {
+    text-shadow: 0 0 15px #e5e5e5;
+  }
+
+  .divider {
+    width: 60%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #ffdf6e, transparent);
+    margin: 15px auto;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1 class="glow">Мифы и Легенды</h1>
+</header>
+
+<div class="section">
+  <h2 align="center">Что такое мифы и легенды?</h2>
+  <div class="divider"></div>
+  <p>Когда-то у людей не было науки и книг. Чтобы объяснить загадки мира, они создавали истории — так появились <b>мифы</b> и <b>легенды</b>.</p>
+  <p><b>Мифы</b> рассказывают о богах, духах и силе природы. Они объясняют, как появился мир и почему он устроен именно так.</p>
+  <p><b>Легенды</b> — истории о героях и великих подвигах, где реальность переплетается с волшебством.</p>
+</div>
+
+<div class="section">
+  <h2 align="center">Зачем они были нужны?</h2>
+  <div class="divider"></div>
+  <ul>
+    <li>✨ чтобы объяснить явления природы;</li>
+    <li>⚔️ чтобы учить смелости и справедливости;</li>
+    <li>👑 чтобы объединять людей и сохранять традиции;</li>
+    <li>🔥 чтобы вдохновлять поколения.</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2 align="center">Почему это важно сегодня?</h2>
+  <div class="divider"></div>
+  <p>Мифы и легенды — это память народа. Они вдохновляют кино, книги, игры и продолжают жить в культуре.</p>
+</div>
+
+<div class="section">
+  <h2 align="center">🔍 Найди нужную легенду</h2>
+  <table>
+    <tr>
+      <th>Страна</th>
+      <th>Легенда</th>
+      <th>Открыть</th>
+    </tr>
+    <tr>
+      <td>🇬🇷 Греция</td>
+      <td>Прометей и огонь</td>
+      <td><a href="неделя2.html">Перейти</a></td>
+    </tr>
+    <tr>
+      <td>🇰🇿 Казахстан</td>
+      <td>Ер Төстік</td>
+      <td><a href="неделя3.html">Перейти</a></td>
+    </tr>
+    <tr>
+      <td>🇪🇬 Египет</td>
+      <td>Боги Нила</td>
+      <td><a href="неделя4.html">Перейти</a></td>
+    </tr>
+  </table>
+</div>
+
+<div class="section">
+  <h2 align="center">🌍 Карта мифов мира</h2>
+   <iframe        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18004338.97164079!2d20!3d30!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134b8b8b8b8b8b8b%3A0x8b8b8b8b8b8b8b8!2sWorld!5e0!3m2!1sen!2s!4v1696190123456!5m2!1sen!2s"        allowfullscreen=""        loading="lazy"        referrerpolicy="no-referrer-when-downgrade">     </iframe>
+
+<footer>
+  «В каждом мифе — часть истины,
+  <br>а в каждой легенде — дыхание прошлого.»
+</footer>
+
+</body>
+</html>
