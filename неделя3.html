@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Неделя 3 — Ер Төстік</title>
+  <link rel="icon" type="image/png" href="logo.png">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1d2b2e, #0f1a1c);
+      color: #eef6f7;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 35px 20px;
+      background: rgba(0,0,0,0.25);
+      backdrop-filter: blur(6px);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 1px;
+      text-shadow: 0 0 10px rgba(255,255,255,0.5);
+      animation: fade 1.2s ease forwards;
+    }
+
+    header h2 {
+      margin-top: 10px;
+      font-weight: normal;
+      color: #a8f0dd;
+      text-shadow: 0 0 10px rgba(168,240,221,0.5);
+      animation: fade 1.4s ease forwards;
+    }
+
+    @keyframes fade {
+      from { opacity: 0; transform: translateY(15px);} 
+      to { opacity: 1; transform: translateY(0);} 
+    }
+
+    .box {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      margin: 25px;
+      padding: 22px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+      backdrop-filter: blur(4px);
+      opacity: 0;
+      transform: translateY(30px);
+      animation: rise 1.2s ease forwards;
+    }
+
+    .box:nth-child(2) { animation-delay: 0.3s; }
+
+    @keyframes rise {
+      to { opacity: 1; transform: translateY(0);} 
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      width: 420px;
+      border-radius: 15px;
+      box-shadow: 0 0 18px rgba(0,0,0,0.5);
+      opacity: 0;
+      animation: zoom 1.2s ease forwards;
+      animation-delay: .5s;
+    }
+
+    @keyframes zoom {
+      from { opacity: 0; transform: scale(0.9);} 
+      to { opacity: 1; transform: scale(1);} 
+    }
+
+    p {
+      text-indent: 25px;
+      text-align: justify;
+      font-size: 17px;
+      color: #e8ffff;
+      margin-bottom: 18px;
+    }
+
+    b {
+      color: #7fffea;
+    }
+
+    .divider {
+      width: 60%;
+      height: 3px;
+      background: linear-gradient(to right, transparent, #76ffe0, transparent);
+      margin: 30px auto;
+    }
+
+    .nav {
+      text-align: center;
+      margin-top: 25px;
+    }
+
+    a {
+      color: #7fffea;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>🇰🇿 Неделя 3 — Казахская легенда</h1>
+    <h2>Ер Төстік</h2>
+  </header>
+
+  <div class="box">
+    <img src="er_tstk.webp" alt="Ер Төстік — герой казахских легенд">
+
+    <p>
+      Легенда о <b>Ер Төстік</b> — один из величайших эпосов казахского народа. Она рассказывает о юноше, рождённом под знаком судьбы, которому предстояло пройти долгий путь через чудеса и опасности.
+    </p>
+
+    <p>
+      Когда Ер Төстік появился на свет, над степью вспыхнул яркий свет — знак рождения великого героя. С ранних лет он отличался необыкновенной храбростью и мудростью. Он понимал язык животных, слышал дыхание земли и всегда чувствовал, где правда.
+    </p>
+
+    <p>
+      Когда его братья исчезли в далёком странствии, Ер Төстік решил отправиться за ними. Он оседлал своего легендарного крылатого скакуна — <b>Тулпара</b>, и вместе они ринулись вперёд, быстрее ветра.
+    </p>
+
+    <p>
+      На своём пути Ер Төстік встретил поистине удивительных существ: богатыря, проходившего за шаг сотни вёрст; исполина, способного поднять целую гору; и героя, который одним глотком мог осушить реку. Каждый из них присоединился к нему и стал его верным другом.
+    </p>
+
+    <p>
+      Герой прошёл через магические земли, победил чудовищ и злых духов, нашёл своих братьев и вернулся домой победителем. Народ встретил его как истинного батыра — символ силы, верности и благородства.
+    </p>
+
+    <p>
+      Легенда об Ер Төстік учит нас, что настоящая сила — в доброте, смелости и верности своему народу.
+    </p>
+
+    <div class="divider"></div>
+
+    <div class="nav">
+      <a href="мифалогии.html">⬅ Назад на главную</a> |
+      <a href="неделя4.html">Неделя 4 — Боги Нила ➜</a>
+    </div>
+  </div>
+
+</body>
+</html>
